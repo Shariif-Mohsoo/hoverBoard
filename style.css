@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    /* background-color: orange; */
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.square
+{
+    height: 1.6rem;
+    width: 1.6rem;
+    box-shadow: 0 0 2px #000;
+    background-color: #1d1d1d;
+    margin: 2px;
+    transition:3s ease-in-out;
+}
+.square:hover
+{
+    transition-duration: 0s;
+}
